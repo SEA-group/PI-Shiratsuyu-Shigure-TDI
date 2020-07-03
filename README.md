@@ -1,17 +1,19 @@
 ﻿# Titanium Shiratsuyu 02-Shigure with torpedo tube direction indicator
 
-======================Presented by SEA group======================
+Skin modification for tier 7 destroyer **Shiratsuyu**. 
 
-Installation: 
-Copy "PnFMods" and "PnFModsLoader.py" into /res_mods/a.b.c.d(current version)/
+Presented by SEA group
 
-安装：
-把PnFMods和PnFModsLoader.py放到
-游戏安装目录/res_mods/版本号/ 
-里面即可
+## Installation
+* **For WGC users**, copy `PnFMods` and `PnFModsLoader.py` into `[WoWS folder]/res_mods/[version number]/`
+* **For Steam users**, copy `PnFMods` and `PnFModsLoader.py` into `/steamapps/common/World of Warships/bin/[largest number]/res_mods/[version number]/`
 
-==================================================================
-Picture credits to:
-胡麻乃りお	(Pixiv 431880)
-まさよ		(Twitter @blaulac)
-らぐほのえりか	(Pixiv 101500)初月タン	(Pixiv 15583261)
+## 使用方法
+* **WG游戏中心用户**请把`PnFMods`和`PnFModsLoader.py`放到`[游戏安装目录]/res_mods/[版本号]/`里面
+* **Steam客户端用户**请把`PnFMods`和`PnFModsLoader.py`放到`steamapps/common/World of Warships/bin/[数字最大的那个]/res_mods/[版本号]/`里面
+
+## Credits
+* [胡麻乃りお](https://www.pixiv.net/users/431880)
+* [まさよ](https://www.pixiv.net/users/14325286)
+* [らぐほのえりか](https://www.pixiv.net/users/101500)
+* [初月タン](https://www.pixiv.net/users/15583261)

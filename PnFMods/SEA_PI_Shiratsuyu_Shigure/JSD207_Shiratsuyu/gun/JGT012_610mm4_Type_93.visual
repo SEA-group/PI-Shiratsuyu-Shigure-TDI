@@ -20,6 +20,15 @@
 				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 			</transform>
 			<node>
+				<identifier>	TDI	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
 				<identifier>	HP_gunFire1	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
@@ -68,10 +77,18 @@
 					<identifier>	SHIPMAT_PBS_GunX	</identifier>
 					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Shigure/JSD207_Shiratsuyu/gun/JGT012_610mm4_Type_93.mfm	</mfm>
 				</material>
-			</primitiveGroup>
-			<primitiveGroup>	1
+			</primitiveGroup>	
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	TDI	</node>
+		<geometry>
+			<vertices>	SEA_TLDI.vertices	</vertices>
+			<primitive>	SEA_TLDI.indices	</primitive>
+			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_TorpAiming	</identifier>
+					<identifier>	SHIPMAT_PBS_TLDI	</identifier>
 					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Shigure/JSD207_Shiratsuyu/gun/JGT012_610mm4_Type_93_aim.mfm	</mfm>
 				</material>
 			</primitiveGroup>			
